@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-family: sans-serif;
+    background-color: black ;
+    color: antiquewhite;
+    
+}
+h1{
+    font-size: 4rem;
+}
+span{
+    color: red;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+span ::after {
+    content: '' ;
+    width: 2px;
+    height: 55px;
+    background-color: rgb(114, 85, 141);
+    margin-left: 4px;
+    display: inline;
+}
